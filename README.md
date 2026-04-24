@@ -1,6 +1,3 @@
-Here's the full README:
-
-````markdown
 # ECE6252 — Adversarial Robustness Evaluation on ImageNet
 
 Empirical evaluation of adversarial robustness across five ImageNet models of increasing defence sophistication, conducted as part of the ECE6252 course project at Georgia Institute of Technology.
