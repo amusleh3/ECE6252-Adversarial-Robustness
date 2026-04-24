@@ -1,10 +1,10 @@
 # ECE6252 — Adversarial Robustness Evaluation on ImageNet
 
-Empirical evaluation of adversarial robustness across five ImageNet models of increasing defence sophistication, conducted as part of the ECE6252 course project at Georgia Institute of Technology.
+Empirical evaluation of adversarial robustness across five ImageNet models of increasing defense sophistication, conducted as part of the ECE6252 course project at Georgia Institute of Technology.
 
 ## Models Evaluated
 
-| Model | Defence | Source |
+| Model | Defense | Source |
 |-------|---------|--------|
 | Standard ResNet-50 | None (baseline) | torchvision |
 | Wong2020Fast | FGSM adversarial training | RobustBench |
@@ -81,4 +81,3 @@ Results are saved to `all_results.json` after every evaluation. It is safe to re
 | PGD-20 | 1.14% | 27.88% | 33.22% | 52.77% | 62.85% |
 | AutoAttack | 0.70% | 24.66% | 28.32% | 50.38% | 60.26% |
 | ImageNet-A | 0.00% | 0.53% | 0.65% | 2.81% | 8.21% |
-````
