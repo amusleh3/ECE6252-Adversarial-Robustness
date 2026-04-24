@@ -38,7 +38,7 @@ Set the following environment variables before launching Jupyter:
 
 ```bash
 export HF_TOKEN=hf_...               # Hugging Face auth token
-export SCRATCH=/your/scratch/path    # Cache directory (must have sufficient storage)
+export SCRATCH=/your/scratch/path    # Cache directory 
 export SCRATCH_TMP=/your/tmp/path    # Temp directory
 export SAVE_DIR=/your/autoattack/tensors/path  # AutoAttack tensor storage
 ```
@@ -56,7 +56,7 @@ Run cells top-to-bottom in order:
 5. **Cell 5** — Define evaluation functions
 6. **Cells 6–10** — Clean accuracy evaluations
 7. **Cells 11–15** — FGSM attack evaluations
-8. **Cells 16–20** — PGD attack evaluations
+8. **Cells 16–20** — PGD attack evaluations (compute-intensive)
 9. **Cells 21–27** — AutoAttack evaluations (compute-intensive)
 10. **Cells 28–32** — ImageNet-A evaluations
 11. **Final cells** — Results table and plots
