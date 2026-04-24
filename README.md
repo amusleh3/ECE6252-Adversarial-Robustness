@@ -17,10 +17,12 @@ Empirical evaluation of adversarial robustness across five ImageNet models of in
 | Condition | Details |
 |-----------|---------|
 | Clean | ImageNet val, 50k images |
-| FGSM | ε=4/255, ℓ∞ norm |
+| FGSM | ε=4/255 |
 | PGD-20 | ε=4/255, α=1/255, 20 steps |
 | AutoAttack | ε=4/255, 5000 balanced images (5 per class, all 1000 classes) |
 | ImageNet-A | Naturally hard images, 200-class subset |
+
+All conditions use ε=4/255 under the ℓ∞ norm.
 
 ## Requirements
 
