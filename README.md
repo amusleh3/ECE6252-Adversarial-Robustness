@@ -9,7 +9,7 @@ Empirical evaluation of adversarial robustness across five ImageNet models of in
 | Standard ResNet-50 | None (baseline) | torchvision |
 | Wong2020Fast | FGSM adversarial training | RobustBench |
 | Engstrom2019Robustness | PGD adversarial training | RobustBench |
-| Singh2023Revisiting_ConvNeXt-S-ConvStem | Augmentation + architecture | RobustBench |
+| Singh2023Revisiting_ConvNeXt-S-ConvStem | Augmentation + architecture + APGD adversarial training | RobustBench |
 | Amini2024MeanSparse_Swin-L | Inference-time feature sparsification | RobustBench |
 
 ## Evaluation Conditions
